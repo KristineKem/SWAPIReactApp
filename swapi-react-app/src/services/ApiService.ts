@@ -5,7 +5,7 @@ export class Api {
 
     static init() {
         this.axiosInstance = axios.create({
-            baseURL: 'https://swapi.dev/api/'
+            baseURL: 'https://swapi.dev/api'
     });
     }
 

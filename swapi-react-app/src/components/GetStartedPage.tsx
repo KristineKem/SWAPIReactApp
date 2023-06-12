@@ -1,9 +1,9 @@
 import React from 'react';
 import Image from "../images/star_wars_2.jpg";
-import { RouteComponentProps, useNavigate, Link } from "@reach/router";
+import { useNavigate } from 'react-router-dom';
 
 
-interface GetStartedPageProps extends RouteComponentProps{
+interface GetStartedPageProps{
 
 };
 

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import { Router } from '@reach/router';
 import { Api } from './services/ApiService';
+import { BrowserRouter } from 'react-router-dom';
 
 const runApi =async () => {
   Api.init();
@@ -12,11 +12,11 @@ const runApi =async () => {
   document.getElementById('root') as HTMLElement
 );
   root.render(
-  <React.StrictMode>
+  <BrowserRouter>
   
       <App />
     
-  </React.StrictMode>
+  </BrowserRouter>
 );
 
 }
