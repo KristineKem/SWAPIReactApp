@@ -28,4 +28,4 @@ When you click on View vehicles purple button pop-up window will appear with lis
 
 If you enter character's name in search bar you will see list of characters whose names match text you have entered in search bar.
 
-# Enyoj you Star Wars favorite characters!
+# Enyoj your favorite Star Wars characters!
