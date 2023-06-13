@@ -27,3 +27,5 @@ After clicking the button you will be redirected to another page where you will 
 When you click on View vehicles purple button pop-up window will appear with list if this characters vehicles. If this character doesn't have any vehicles to show you will see corresponding message.
 
 If you enter character's name in search bar you will see list of characters whose names match text you have entered in search bar.
+
+# Enyoj you Star Wars favorite characters!
