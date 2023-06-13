@@ -1,4 +1,3 @@
-import './App.css';
 import 'tailwindcss/tailwind.css'
 import { GetStartedPage } from './components/GetStartedPage';
 import { PeopleList } from './components/PeopleList';
