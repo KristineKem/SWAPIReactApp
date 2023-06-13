@@ -14,10 +14,6 @@ export const GetStartedPage: React.FC<GetStartedPageProps> = () => {
         navigate('/people');
     };
 
-    const handleSearchClick = () => {
-        navigate('/search');
-    };
-
     return(
 
         <div className="flex h-screen w-full items-center justify-center bg-gradient-to-br
@@ -35,12 +31,6 @@ export const GetStartedPage: React.FC<GetStartedPageProps> = () => {
                         transition-colors duration-300 hover:bg-yellow-600" onClick={handleViewClick}>
                         Viev people list
                     </button>
-                    </div>
-                    <div className="mt-8 flex justify-center text-lg text-black">
-                        <button type="button" className="rounded-3xl bg-yellow-400 bg-opacity-50 px-10 py-2 text-white shadow-xl backdrop-blur-md 
-                            transition-colors duration-300 hover:bg-yellow-600" onClick={handleSearchClick}>
-                            Search
-                        </button>                       
                     </div>
                 </form>
                 </div>

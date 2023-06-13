@@ -1,1 +1,0 @@
-export const VEHICLE_URL = "https://swapi.dev/api/vehicles/";

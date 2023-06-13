@@ -1,7 +1,4 @@
-export interface Caracter {
-    name: string;
-    vehicles?: (string)[] | null;
-  }
+import { Vehicle } from "./vehicleType";
 
   export interface FullCaracter {
     name: string;
@@ -15,7 +12,7 @@ export interface Caracter {
     homeworld: string;
     films?: (string)[] | null;
     species?: (null)[] | null;
-    vehicles?: (string)[] | null;
+    vehicles: Vehicle[];
     starships?: (string)[] | null;
     created: string;
     edited: string;

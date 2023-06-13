@@ -1,7 +1,7 @@
 import { Api } from "../services/ApiService";
-import { Caracter } from "../types/caracterType";
+import { PeopleApiResponse } from "../types/peopleApiResponse";
 
 export const getPeopleList = async () => {
-    const response = await Api.get<Caracter[]>("/people");
+    const response = await Api.get<PeopleApiResponse>("/people");
     return response.data;
 };
