@@ -1,5 +1,3 @@
-import { Vehicle } from "./vehicleType";
-
   export interface FullCaracter {
     name: string;
     height: string;
@@ -12,7 +10,7 @@ import { Vehicle } from "./vehicleType";
     homeworld: string;
     films?: (string)[] | null;
     species?: (null)[] | null;
-    vehicles: Vehicle[];
+    vehicles: string[];
     starships?: (string)[] | null;
     created: string;
     edited: string;

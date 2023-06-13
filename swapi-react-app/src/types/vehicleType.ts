@@ -15,5 +15,5 @@ export interface Vehicle {
     films?: (string)[] | null;
     url: string;
     vehicle_class: string;
-  }
+}
   
