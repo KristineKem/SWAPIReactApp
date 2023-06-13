@@ -23,7 +23,7 @@ export const GetStartedPage: React.FC = () => {
 				</div>
 				<form action="#">
 					<div className="mt-8 flex justify-center text-lg text-black">
-					<YellowButton handleClick={handleViewClick} buttonName='View character list' />
+					<YellowButton handleClick={handleViewClick} buttonName='Get started!' />
 					</div>
 				</form>
 				</div>
