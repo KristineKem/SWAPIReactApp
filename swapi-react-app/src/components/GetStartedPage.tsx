@@ -13,12 +13,10 @@ export const GetStartedPage: React.FC = () => {
   return (
     <div
       className="flex h-screen w-full items-center justify-center bg-gradient-to-br
-				from-sky-500 via-rose-500 to-lime-500 bg-cover"
-    >
+				from-sky-500 via-rose-500 to-lime-500 bg-cover">
       <div
         className="rounded-xl bg-gray-800 bg-opacity-50 px-16 py-10 
-					shadow-lg backdrop-blur-md max-sm:px-8"
-      >
+					shadow-lg backdrop-blur-md max-sm:px-8">
         <div className="text-white">
           <div className="mb-8 flex flex-col items-center">
             <img
