@@ -71,7 +71,6 @@ export const PeopleList: React.FC = () => {
     setIsModalOpen(false);
   };
 
-
   return (
     <div className="flex h-full w-full items-center justify-center p-1 bg-auto bg-gradient-to-br
         from-sky-500 via-rose-500 to-lime-500 ">
@@ -97,7 +96,6 @@ export const PeopleList: React.FC = () => {
                   <div className="mr-2 h-8 w-48 text-center bg-gray-300 rounded">
                     {person.name}
                   </div>
-                  
                   <button
                     className="ml-2 w-36 h-8 rounded-lg bg-purple-300"
                     onClick={() => handleVehicleClick(person)}>

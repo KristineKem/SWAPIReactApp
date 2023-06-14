@@ -10,8 +10,7 @@ export const SearchBar: React.FC<SearchBarProps> = ({searchTerm, setSearchTerm})
     <div className="flex items-center justify-center">
       <div
         className="flex items-center max-w-md mx-auto bg-white rounded-lg "
-        x-data="{ search: '' }"
-      >
+        x-data="{ search: '' }">
         <div className="w-full">
           <input
             type="search"
@@ -26,14 +25,12 @@ export const SearchBar: React.FC<SearchBarProps> = ({searchTerm, setSearchTerm})
           <button
             type="submit"
             className="flex items-center bg-yellow-500 justify-center w-12 h-12 
-              text-white rounded-r-lg"
-          >
+              text-white rounded-r-lg">
             <svg
               className="w-5 h-5"
               fill="none"
               stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
+              viewBox="0 0 24 24">
               <path
                 stroke-linecap="round"
                 stroke-linejoin="round"
