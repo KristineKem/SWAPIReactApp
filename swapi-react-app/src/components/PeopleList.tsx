@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getPeopleList } from "../api/people-list-api";
+import { getPeopleList, getNextPeopleList } from "../api/people-list-api";
 import { FullCaracter } from "../types/caracterType";
 import { useNavigate } from "react-router-dom";
 import { Vehicle } from "../types/vehicleType";
@@ -26,6 +26,12 @@ export const PeopleList: React.FC = () => {
         const response = await getPeopleList();
         const data = response.results;
         setPeopleList(data);
+        for(let i = 2; i <= 9; i++) {
+          let api = String(i);
+          const nextResponse = await getNextPeopleList(api);
+          const nextData = nextResponse.results;
+          setPeopleList(current => [...current, ...nextData]);
+        };
       } catch (err: any) {
         setError(err.message);
       } finally {
